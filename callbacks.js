@@ -340,7 +340,7 @@ var factory3 = function(input) {
 	answer = input 
 	return output3 
 }
-
+var answer = factory3() 
 
 console.assert(factory3('i have reached function nirvana')() === 'i have reached function nirvana')
 console.assert(factory3(100)() === 100)
